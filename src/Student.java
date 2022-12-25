@@ -58,7 +58,7 @@ public class Student {
 		System.out.println("あなたの点数は" + grade + "点に下がりました");
 		if (grade < 60) {
 			graduation = false;
-			for (int i = 0; i < 3; i++) {
+			for (int i = 0; i < 2; i++) {
 				System.out.println("あなたは留年しました");
 			}
 			System.out.println("学費入金メソッド『addTuition()』を使って任意の学費を入力してください");
